@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>VR Robot Project - WKU XR Lab</title>
+		<title>WKU AR Gallery</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -48,8 +48,9 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2> VR Robot Training Simulation</h2>
-							<p>I am working for the WKU XR Lab developing a training simulation to give engineering students a tool to learn how to use the FANUC 2000 iC robot</p>
+							<h2> WKU AR Gallery</h2>
+							<p>This gallery was organized and executed by Madison Whittle, Chris Nalani DiMeo, Sarah Terry and Me.<br>
+								 We hope to do more similar galleries like this in the future, possibly on a larger scale.</p>
 						</header>
 						<div class="row gtr-150">
 							<div class="col-4 col-12-medium">
@@ -57,25 +58,28 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
-											<h3>WKU XR Lab</h3>
-											<p>The WKU XR lab is an interdisciplinary laboratory at WKU that provides students with the oportunity
-                                                to be part of XR projects. I worked at the lab as a C# developer, a 3D Artist and a VR teacher assistant at the lab
+											<a href="#" class="image fit"><img src="images/ARGallery_Winning.png" alt="" /></a>
+											<h3>Student Poster Winner</h3>
+											<p>We won the best student poster at the ACM Mid-Southeast
+												Chapter Fall 2021 Conference. The title of our poster was The Connection of STEM and Art & Design: A Visual Study of the Importance 
+												of Digital Arts in the Traditional Gallery Space
                                             </p>
-											<footer>
-												<ul class="actions">
-													<li><a href="https://www.wku.edu/xr/" class="button">Visit their Webpage</a></li>
-												</ul>
-											</footer>
 										</section>
 										<hr />
 										<section>
-											<a href="#" class="image fit"><img src="images/DiagramRobot.png" alt="" /></a>
-											<h3>Github Documentation</h3>
-											<p>I created a github repository commenting all the methods and classes used for the robot project</p>
-                                            <p>All of them were created in C# using Unity and Visual Studio</p>
+											<a href="#" class="image fit"><img src="images/NewsAR_me.png" alt="" /></a>
+											<h3>News</h3>
+											<p>Several news webpages covered the WKU AR Gallery</p>
+                                            <p>Click the links below to see their articles</p>
 											<footer>
 												<ul class="actions">
-													<li><a href="https://github.com/Klaimtrev/RobotFanuc" class="button">Visit the Repository</a></li>
+													<li><a href="https://spectrumnews1.com/ky/northern-ky/news/2021/10/08/wku-students-create-an-art-gallery-full-of-augmented-reality" class="button">Spectrum News</a></li>
+												</ul>
+												<ul class="actions">
+													<li><a href="https://wkuherald.com/61457/news/wku-students-organize-first-ever-augmented-reality-gallery/" class="button">WKU Herald</a></li>
+												</ul>
+												<ul class="actions">
+													<li><a href="https://www.wbko.com/2021/10/07/first-augmented-reality-gallery-wku/" class="button">WBKO</a></li>
 												</ul>
 											</footer>
 										</section>
@@ -86,33 +90,24 @@
 
 								<!-- Content -->
 									<section id="content">
-										<a href="#" class="image fit"><img src="images/RobotScreenshot.png" alt="" /></a>
-										<h3>Building a Digital Twin</h3>
-										<p>I was in charge of building a 3D robot that resembles the functionality and looks of the original one that was 
-                                            given to WKU. After making some measurements and analyzing the documentation of the robot I started building a 3D version of it in Blender.
-                                            With a rough 3D sketch of it, I started implementing the movement of each joint of the robot in Unity. These movements were
-                                            tested and tweaked by the rest of the team to improve the accuracy of it. When I had the model completely done, I started implementing
-                                            Inverse Kinematics for the joints. I imported the robot I made into Maya to build a rig for it and be able to move it using FK and IK.
-                                            Using the rig as a reference for the Robot in Unity, I created an script that controls the robot using IK.
+										<a href="#" class="image fit"><img src="images/AR_Gallery.jpg" alt="" /></a>
+										<h3>Assembling a Virtual Gallery</h3>
+										<p>It is estimated that over 200 attendees visited the gallery. One visitor described the exhibit as “a groundbreaking way to display art.”
+											 “One of the most fascinating shows I’ve seen at WKU,” another said.
                                          </p>
 										<p>To control every movement of the robot I made a Scripts Controller that is able to toggle between the 2 motions,
                                             change the speed of the movement of the robot, allocate each momevement that the robot has done in a dynamic array and 
                                             repeat these movements. I  Please visit the Github repository that contains the documentation of all methods and classes I created for
                                             the robot in unity to learn more.</p>
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/iVzqEfvFUkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-										<h3><br>List of contributions to the project</h3>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/hiU5oV3Bh-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										<h3><br>Effects of the Gallery</h3>
 										<p>Here is a summary of all what I did and I learn while working on this project: </p>
 										<ul>
-											<li>Implemented Robot Locomotion using C#, including local
-                                                and world movement with rotation limits.
+											<li>It is estimated that over 200 attendees visited the gallery.
                                                 </li>
-											<li>Coded a storage motion system to repeat robot 
-                                                movements or loop them.</li>
-                                            <li>Make all the documentation of the Robot project in Unity and teach new students on how to use it</li>
-											<li>Prepared the project to work on Oculus Quest 2 and Microsoft HoloLens</li>
-											<li>Modeled, Textured and Rigged the 3D version of the Robot </li>
-											<li>Designed a virtual simulation for students to learn how a 
-                                                manufacturing robot works</li>
+											<li>One visitor described the exhibit as “a groundbreaking way to display art.”</li>
+                                            <li>Another visitor said “One of the most fascinating shows I’ve seen at WKU,”</li>
+											<li>The gallery’s over 25 works were contributed by more than 30 creators from diverse disciplines across campus</li>
 										</ul>
 									</section>
 
