@@ -1,4 +1,4 @@
-This is my webpage portfolio
+This is my webpage portfolio. I keep updating it with more stuff about the projects I worked on
 
 Credits:
 
